@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using WeatherApp.Core.ViewModels;
 using Xamarin.Forms;
 
 namespace WeatherApp.Core
@@ -10,6 +10,7 @@ namespace WeatherApp.Core
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new WeatherViewModel();
         }
     }
 }

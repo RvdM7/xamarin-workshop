@@ -2,9 +2,49 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="WeatherApp.Core.MainPage">
-    <Label
-        Text="Welcome to Xamarin Forms!"
-        VerticalOptions="Center"
-        HorizontalOptions="Center" />
+    x:Class="WeatherApp.Core.MainPage"
+    xmlns:converters="clr-namespace:WeatherApp.Core.Converters">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ConditionsToImageConverter
+                x:Key="ConditionsToImage" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ListView
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="FillAndExpand"
+        ItemsSource="{Binding Forecast}"
+        BackgroundColor="#6ca6c9"
+        SeparatorColor="White">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout
+                        Spacing="0"
+                        Orientation="Horizontal"
+                        VerticalOptions="Center"
+                        HorizontalOptions="FillAndExpand">
+                        <Image
+                            Source="{Binding CurrentConditions, Converter={StaticResource ConditionsToImage}}"
+                            HorizontalOptions="StartAndExpand"
+                            VerticalOptions="Center" />
+                        <Label
+                            Text="{Binding City}"
+                            TextColor="White"
+                            FontSize="20"
+                            VerticalOptions="Center" />
+                        <StackLayout
+                            HorizontalOptions="EndAndExpand">
+                            <Label
+                                TextColor="White"
+                                Text="{Binding High}" />
+                            <Label
+                                TextColor="Gray"
+                                Text="{Binding Low}" />
+                        </StackLayout>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>
