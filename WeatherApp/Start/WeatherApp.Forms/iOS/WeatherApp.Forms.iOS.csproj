@@ -108,6 +108,33 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\windy.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\windy.imageset\windy.png" />
+    <ImageAsset Include="Assets.xcassets\windy.imageset\windy%402x.png" />
+    <ImageAsset Include="Assets.xcassets\windy.imageset\windy%403x.png" />
+    <ImageAsset Include="Assets.xcassets\sunny.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\sunny.imageset\sunny.png" />
+    <ImageAsset Include="Assets.xcassets\sunny.imageset\sunny%402x.png" />
+    <ImageAsset Include="Assets.xcassets\sunny.imageset\sunny%403x.png" />
+    <ImageAsset Include="Assets.xcassets\snow.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\snow.imageset\snow.png" />
+    <ImageAsset Include="Assets.xcassets\snow.imageset\snow%402x.png" />
+    <ImageAsset Include="Assets.xcassets\snow.imageset\snow%403x.png" />
+    <ImageAsset Include="Assets.xcassets\showers.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\showers.imageset\showers.png" />
+    <ImageAsset Include="Assets.xcassets\showers.imageset\showers%402x.png" />
+    <ImageAsset Include="Assets.xcassets\showers.imageset\showers%403x.png" />
+    <ImageAsset Include="Assets.xcassets\rainbow.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\rainbow.imageset\rainbow.png" />
+    <ImageAsset Include="Assets.xcassets\rainbow.imageset\rainbow%402x.png" />
+    <ImageAsset Include="Assets.xcassets\rainbow.imageset\rainbow%403x.png" />
+    <ImageAsset Include="Assets.xcassets\rain.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\rain.imageset\rain%402x.png" />
+    <ImageAsset Include="Assets.xcassets\rain.imageset\rain%403x.png" />
+    <ImageAsset Include="Assets.xcassets\cloudy.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\cloudy.imageset\cloudy.png" />
+    <ImageAsset Include="Assets.xcassets\cloudy.imageset\cloudy%402x.png" />
+    <ImageAsset Include="Assets.xcassets\cloudy.imageset\cloudy%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

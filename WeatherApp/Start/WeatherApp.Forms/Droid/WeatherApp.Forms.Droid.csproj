@@ -126,6 +126,26 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\windy.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\sunny.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\snow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\showers.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\rainbow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\rain.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cloudy.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\windy.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\sunny.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\snow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\showers.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\rainbow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\rain.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cloudy.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cloudy.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\rainbow.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\showers.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\snow.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\sunny.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\windy.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\WeatherApp.Core\WeatherApp.Core.csproj">
