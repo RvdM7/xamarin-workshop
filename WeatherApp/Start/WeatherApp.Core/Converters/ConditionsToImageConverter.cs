@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace WeatherApp.Core.Converters
 {
-    public class ConditionsToImageConverter
+    public class ConditionsToImageConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
